@@ -1,0 +1,43 @@
+#show {
+  .city-img {
+  color: white;
+  // text-align: center;
+  height: 50vh;
+  object-fit: contain;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  // background-size: cover !important;
+  background-position: center;
+  }
+  .user-img {
+    width: 65px;
+    margin: 15px 5px;
+  }
+  .row {
+    padding: 15px;
+    text-align: center;
+  }
+  .header-flat {
+    color: $blue;
+    form {
+      margin: 20px 0;
+      margin-right: 0;
+      background: $light-gray;
+      padding: 15px;
+      border-radius: 3px;
+    }
+  }
+  .header-flat-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 0;
+    font-weight: lighter;
+  }
+  .header-flat-owner {
+    padding: 20px;
+    p {
+      font-weight: lighter;
+    }
+  }
+}
